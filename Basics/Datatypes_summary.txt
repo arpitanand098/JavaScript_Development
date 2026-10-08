@@ -1,0 +1,32 @@
+Primitive DataTypes: These are of 7 Types
+1) String 2) Number 3) Boolean 4) Null 5) undefined 6) Symbol 7) BigInt
+
+Reference (Non primitive):
+
+1) Array: const heros = ["Batman", "IronMan", "Thor", "Captain America"]
+ 
+2) Objects: Key Value Pair
+ let obj = {
+    name: "Arpit",
+    age: 20,
+ }
+ 
+3) Functions:
+const myfunction = function(){
+    console.log("Hello World");
+}
+
+Note: The return type of all the non primitive datatypes is object.
+console.log(heros) // object
+console.log(obj) // object
+console.log(myfunction) //  function
+
+Note: Return type of Primitive DataTypes
+1) Number = Number
+2) String = String
+3} Boolean = Boolean
+4) null = object
+5) undefined => undefined
+6) Symbl = Symbol
+7) Bigint = bigint
+
