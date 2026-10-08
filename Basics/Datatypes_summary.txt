@@ -30,3 +30,29 @@ Note: Return type of Primitive DataTypes
 6) Symbl = Symbol
 7) Bigint = bigint
 
+
+******** Memory In JavaScript *********
+There are Two types of memory in JavaScript
+1) Stack (Primitive)   2) Heap (Non Primitive)
+
+Stack: (Call by Value) => We can only change the copy of the variable not the original value.
+let myname = "Arpit"
+
+let anothername = myname
+anothername = "Abhay"
+
+console.log(myname); // => Arpit
+console.log(anothername); // => Abhay
+
+Heap: (Call by Reference) => We can chage the original value because we have access to original value.
+let userone = {
+    email: "user1@gmail.com",
+    upiId: "user@ybl"
+}
+
+let userTwo = userone
+
+userTwo.email = "user2@gmai.com"
+
+console.log(userone.email); // user2@gmail.com
+console.log(userTwo.email); // user2@gmail.com
