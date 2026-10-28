@@ -36,4 +36,35 @@ function loginUserMessage(username) {
 }
 
 // console.log(loginUserMessage("Arpit"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+function calculatePrice(val1, val2, ...num1){
+    return num1
+}
+
+console.log(calculatePrice(200, 400, 500, 1000))
+
+const user = {
+    username: "Arpit",
+    RollNo: 42
+}
+
+function handleObject(anyobject){
+    console.log(`Student Name is ${anyobject.username} and registration number is ${anyobject.RollNo}`);
+}
+
+// handleObject(user)
+
+handleObject({
+    username: "Shristy",
+    RollNo: 38
+})
+
+const myNewArray = [36, 38, 39, 42, 23]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([36, 38, 39, 42]));
